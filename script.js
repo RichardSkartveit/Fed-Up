@@ -1,4 +1,4 @@
-const apiurl = 'https://public-api.wordpress.com/rest/v1.1/sites/demnidotno.wordpress.com/posts';
+const apiUrl = 'https://public-api.wordpress.com/rest/v1.1/sites/demnidotno.wordpress.com/posts';
 
 function fetchAndDisplayPosts () {
     fetch(apiUrl)
